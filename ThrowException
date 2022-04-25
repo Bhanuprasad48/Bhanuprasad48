@@ -1,0 +1,20 @@
+public class ThrowException
+{
+public void age(int a)
+{
+if(a<18)
+{
+throw new ArithmeticException("person is  not eligible for voting");
+}
+else
+{
+System.out.println("person is eligible for voting");
+}
+}
+public static void main(String args[])
+{
+ThrowException t=new ThrowException();
+t.age(17);
+
+}
+}
