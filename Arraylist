@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+class Arraylist
+{
+public static void main(String args[])
+{
+ArrayList<String> listname=new ArrayList<String>();
+listname.add("don");
+listname.add("*****");
+listname.add("bhanu");
+listname.add("*****");
+listname.add("niharika");
+System.out.println(listname); 
+}
+}	
