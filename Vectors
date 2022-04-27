@@ -1,0 +1,18 @@
+import java.util.Vector;
+class Vectors
+{
+public static void main(String args[])
+{
+Vector<String> v1=new Vector<String>();
+
+v1.add("don");
+v1.add("bhanu");
+v1.add("niharika");
+v1.add("manish");
+v1.add("vat");
+v1.remove("bhanu");
+System.out.println(v1);
+System.out.println(v1.get(1));
+
+}
+}
